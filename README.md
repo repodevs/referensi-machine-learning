@@ -7,6 +7,24 @@ Repository ini dibuat untuk menyimpan referensi-referensi machine learning (khus
 Sederhananya, sudah banyak diluar sana referensi yang menggunakan bahasa inggris.
 jadi saya mencoba membuat daftar referensi yang menggunakan bahasa indonesia.
 
+### Penggunaan
+Referensi ini saya buat menggunakan Linux sebagai Operating System, dan menggunakan `Pipenv` untuk dependencies management nya.
+untuk instalasi dependencies bisa menggunakan command:
+```
+$ pipenv install
+```
+
+dan untuk menjalankan jupyter notebooknya menggunakan command:
+```
+$ pipenv run jupyter notebook
+```
+
+atau bisa menggunakan command dari `Makefile`
+```
+$ make install
+$ make run
+```
+
 
 # Disclaimer!
 
